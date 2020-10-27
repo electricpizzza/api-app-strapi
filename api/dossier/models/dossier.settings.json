@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dossiers",
+  "info": {
+    "name": "dossier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "nature": {
+      "type": "string"
+    },
+    "date_ouverture": {
+      "type": "date"
+    },
+    "date_fermeture": {
+      "type": "datetime"
+    }
+  }
+}

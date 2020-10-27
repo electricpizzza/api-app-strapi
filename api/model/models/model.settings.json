@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "models",
+  "info": {
+    "name": "model"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "language": {
+      "type": "string"
+    },
+    "titre": {
+      "type": "string"
+    },
+    "act": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
